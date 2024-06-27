@@ -2,12 +2,12 @@ package dsa.search;
 
 public class binarysearch {
     public static void main(String[] args) {
-        int[] nums={23,32,45,65};
-        int target =45;
+        int[] nums={-1,0,3,5,9,12};
+        int target =9;
         int index=Bsearch(nums, target);
         System.out.println(index);
-        int ceil=ceil_num(nums, 33);
-        System.out.println(ceil);
+        //int ceil=ceil_num(nums, 33);
+        //System.out.println(ceil);
 
     }
     static int Bsearch(int[]arr,int target){

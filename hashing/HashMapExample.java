@@ -12,8 +12,8 @@ public class HashMapExample {  // Renamed the class to follow Java naming conven
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
         }
 
-        if (map.containsKey(2)) {
-            System.out.println(map.get(2));
+        if (map.containsKey(1)) {
+            System.out.println(map.get(1));
         }
     }
 }
